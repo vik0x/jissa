@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Casino Caliente</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
+
+	<!-- Vendor Styles -->
+	<link rel="stylesheet" type="text/css" href="vendor/slick-1.6.0/slick/slick.css"/>
+	<link rel="stylesheet" href="vendor/font-awesome-4.6.3/css/font-awesome.min.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="vendor/formstone/dropdown.css" />
+
+	<!-- App Styles -->
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- Vendor JS -->
+	<script src="vendor/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="vendor/slick-1.6.0/slick/slick.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>
+	<script src="vendor/formstone/core.js"></script>
+	<script src="vendor/formstone/touch.js"></script>
+	<script src="vendor/formstone/dropdown.js"></script>
+
+	<!-- App JS -->
+	<script src="js/functions.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="shell">
+			<div class="nav-trigger-wrapper">
+				<a href="#" class="nav-trigger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			</div><!-- /.nav-trigger-wrapper -->
+
+			<nav class="nav-access">
+				<ul>
+					<li>
+						<a href="#">Quíenes somos</a>
+					</li>
+					
+					<li>
+						<a href="#">Contacto</a>
+					</li>
+				</ul>
+			</nav><!-- /.nav-access -->
+
+			<div class="header-content">
+				<a href="#" class="logo">casino caliente</a>
+				
+				<nav class="nav">
+					<ul>
+						<li>
+							<a href="#">Home</a>
+						</li>
+						
+						<li class="has-dropdown">
+							<a href="#">opciones De Diversión</a>
+
+							<ul class="dropdown">
+								<li>
+									<a href="#">promociones Y Eventos</a>
+								</li>
+								
+								<li>
+									<a href="#">ubicaciones</a>
+								</li>
+								
+								<li>
+									<a href="#">caliente Club</a>
+								</li>		
+							</ul><!-- /.dropdown --> 
+						</li>
+						
+						<li>
+							<a href="#">promociones Y Eventos</a>
+						</li>
+						
+						<li>
+							<a href="#">sucursales</a>
+						</li>
+						
+						<li>
+							<a href="#">caliente Club</a>
+						</li>
+
+						<li class="desktop-hidden">
+							<a href="#">Quíenes somos</a>
+						</li>
+						
+						<li class="desktop-hidden">
+							<a href="#">Contacto</a>
+						</li>
+
+						<li class="desktop-hidden tablet-hidden">
+							<a href="#">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+						</li>
+						
+						<li class="desktop-hidden tablet-hidden">
+							<a href="#">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</a>
+						</li>
+						
+						<li class="desktop-hidden tablet-hidden">
+							<a href="#">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+				</nav><!-- /.nav -->
+
+				<!--<div class="socials">
+					<ul>
+						<li>
+							<a href="#">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+				</div><!-- /.socials 
+			</div><!-- /.header-content --> 
+
+			<a href="#" class="btn-search"> 
+				<i class="ico-search"></i>	
+
+				<span></span>
+			</a>
+
+			<div class="search">
+				<form action="?" method="get"> 
+					<div class="search-actions">
+						<label for="q" class="hidden">Search</label> 
+
+						<input type="search" name="q" id="q" value="" placeholder="Search" class="search-field">
+
+						<button class="search-btn">
+							<i class="ico-search"></i>	
+						</button> 
+					</div><!-- /.search-actions -->
+					
+				</form>
+			</div><!-- /.search -->
+		</div><!-- /.shell -->
+	</header><!-- /.header -->
+	<div class="intro-gray"></div><!-- /.intro-gray -->
+
+
+	<div class="main">
+		<section class="section-articles head-padding">
+			<div class="shell">
+				<article class="article">
+					<div class="article-head head-padding">
+						<h2>Sucursales</h2>
+						<div class="fs-dropdown btn-ciudades" tabindex="-1"><!-- BEGIN boton sucursal -->
+							<div class="select btn-ubn fs-dropdown-element" tabindex="-1"> 
+		                        <select name="ciudad">
+									<option value="Ciudad de México">Ciudad de México</option>
+									<option value="Ciudad de México">Ciudad de México</option>
+									<option value="Ciudad de México">Ciudad de México</option>
+								</select> <!-- END boton sucursal -->
+							</div>
+						<button type="button" class="fs-dropdown-selected fs-touch-element">Ciudad de México</button><div class="fs-dropdown-options">
+						<button type="button" class="fs-dropdown-item fs-dropdown-item_selected" data-value="Ciudad de México">Ciudad de México</button>
+						<button type="button" class="fs-dropdown-item" data-value="Ciudad de México">Ciudad de México</button>
+						<button type="button" class="fs-dropdown-item" data-value="Ciudad de México">Ciudad de México</button>
+						</div>
+					</div><!-- END boton sucursal -->
+					</div><!-- /.article-head -->
+				</article>
+			</div>
+		</section>
+	</div>
+
+	<div class="shell">
+		<div class="sucursales">
+			<ul>
+				<li>
+					<h3>Tecamachalco</h3>
+					<div class="section-actions btn-action">
+						<a href="#" class="btn btn-red btn-red-small">
+							<i class="ico-human"></i>
+
+							Cómo llegar aquí
+						</a>
+					</div>
+					<h6>Dirección</h6>
+					<p>Calle Fuente del molino #49-B Col. San Miguel Tecamachalco Naucalpan, Edo. de México C.P. 53970</p>
+					<h6>Teléfonos</h6>
+					<p>01 + 55 123456789</p>
+					<p>045 + 55 123456789</p>
+					<p>779 + 55 123456789</p>
+				</li>
+
+				<li>
+					<h3>Bosques de Aragón</h3>
+					<div class="section-actions btn-action">
+						<a href="#" class="btn btn-red btn-red-small">
+							<i class="ico-human"></i>
+
+							Cómo llegar aquí
+						</a>
+					</div>
+					<h6>Dirección</h6>
+					<p>Av. Carlos Hank González, interior Multiplaza San Juan, Col. Bosques de Aragón, Nezahualcóyotl. Estado de México  57170</p>
+					<h6>Teléfonos</h6>
+					<p>01 + 55 123456789</p>
+					<p>045 + 55 123456789</p>
+					<p>779 + 55 123456789</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="shell">
+		<div class="sucursales">
+			<ul>
+				<li>
+					<h3>Naucalpan</h3>
+					<div class="section-actions btn-action">
+						<a href="#" class="btn btn-red btn-red-small">
+							<i class="ico-human"></i>
+
+							Cómo llegar aquí
+						</a>
+					</div>
+					<h6>Dirección</h6>
+					<p>Blvd. Toluca No. 117, Col. San Andrés Atoto, Naucalpan, Estado de México 53300</p>
+					<h6>Teléfonos</h6>
+					<p>01 + 55 123456789</p>
+					<p>045 + 55 123456789</p>
+					<p>779 + 55 123456789</p>
+				</li>
+
+				<li>
+					<h3>Bosque de Duraznos</h3>
+					<div class="section-actions btn-action">
+						<a href="#" class="btn btn-red btn-red-small">
+							<i class="ico-human"></i>
+
+							Cómo llegar aquí
+						</a>
+					</div>
+					<h6>Dirección</h6>
+					<p>Calle Bosque de Duraznos No. 67-5, Col. Bosques de las Lomas, Delegación Miguel Hidalgo México, D.F.  11700</p>
+					<h6>Teléfonos</h6>
+					<p>01 + 55 123456789</p>
+					<p>045 + 55 123456789</p>
+					<p>779 + 55 123456789</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="shell">
+		<div class="sucursales">
+			<ul>
+				<li>
+					<h3>Tecamachalco</h3>
+					<div class="section-actions btn-action">
+						<a href="#" class="btn btn-red btn-red-small">
+							<i class="ico-human"></i>
+
+							Cómo llegar aquí
+						</a>
+					</div>
+					<h6>Dirección</h6>
+					<p>Calle Fuente del molino #49-B Col. San Miguel Tecamachalco Naucalpan, Edo. de México C.P. 53970</p>
+					<h6>Teléfonos</h6>
+					<p>01 + 55 123456789</p>
+					<p>045 + 55 123456789</p>
+					<p>779 + 55 123456789</p>
+				</li>
+
+				<li>
+					<h3>Tecamachalco</h3>
+					<div class="section-actions btn-action">
+						<a href="#" class="btn btn-red btn-red-small">
+							<i class="ico-human"></i>
+
+							Cómo llegar aquí
+						</a>
+					</div>
+					<h6>Dirección</h6>
+					<p>Calle Fuente del molino #49-B Col. San Miguel Tecamachalco Naucalpan, Edo. de México C.P. 53970</p>
+					<h6>Teléfonos</h6>
+					<p>01 + 55 123456789</p>
+					<p>045 + 55 123456789</p>
+					<p>779 + 55 123456789</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+		<section class="section-gray">
+			<div class="shell">
+				<div class="subscribe">
+					<form action="?" method="post">
+						<div class="subscribe-head">
+							<h2>Regístrate a nuestro newsletter</h2>
+						</div><!-- /.subscribe-head -->
+
+						<div class="subscribe-wrapper">
+							<!--<a href="#" class="btn btn-red btn-form">Deseo recibir noticaciones</a>-->
+
+							<div class="subscribe-body-hidden">
+								<div class="subscribe-inner">
+									<label for="mail" class="hidden">Email</label>
+									
+									<input type="email" id="mail" name="mail" value="" placeholder="Email" class="subscribe-field">
+									
+									<input type="submit" value="Enviar" class="subscribe-btn btn btn-red">
+								</div><!-- /.subscribe-inner -->
+
+								<div class="subscribe-actions">
+									<ul class="list-checkboxes">
+										<li>
+											<div class="checkbox">
+												<input type="checkbox" name="field-notifications" id="field-notifications">
+												
+												<label class="form-label" for="field-notifications">Deseo recibir notificaciones</label>
+											</div><!-- /.checkbox -->
+										</li>
+									</ul><!-- /.list-checkboxes -->
+								</div><!-- /.subscribe-actions -->
+							</div><!-- /.subscribe-body-hidden -->
+						</div><!-- /.subscribe-wrapper -->
+					</form>
+				</div><!-- /.subscribe -->
+			</div><!-- /.shell -->
+		</section><!-- /.section-gray -->
+	</div><!-- /.main -->
+	<footer class="footer">
+		<div class="shell">
+			<a href="#" class="btn-top"></a>
+
+			<div class="cols">
+				<div class="col col-size1">
+					<a href="#" class="logo"></a>
+
+					<ul class="list-partners">
+						<li>
+							<a href="http://www.caliente.mx">www.caliente.mx</a>
+						</li>
+						
+						<li>
+							<a href="http://www.xolos.com.mx">www.xolos.com.mx</a>
+						</li>
+						
+						<li>
+							<a href="http://www.grupocaliente.com.mx">www.grupocaliente.com.mx</a>
+						</li>
+					</ul><!-- /.list-partners -->
+				</div><!-- /.col col-size1 -->
+				
+				<div class="col col-size2">
+					<nav class="nav-footer">
+						<ul>
+							<li>
+								<a href="#">Líneas De Juego</a>
+							</li>
+							
+							<li>
+								<a href="#">Sucursales</a>
+							</li>
+							
+							<li>
+								<a href="#">Promociones Y Eventos</a>
+							</li>
+							
+							<li>
+								<a href="#">Opciones De Diversión</a>
+							</li>
+							
+							<li>
+								<a href="#">Alimentos Y Bebidas</a>
+							</li>
+							
+							<li>
+								<a href="#">Juego Responsable</a>
+							</li>
+						</ul>
+					</nav><!-- /.nav-footer -->
+				</div><!-- /.col col-size2 -->
+				
+				<div class="col col-size3">
+					<nav class="nav-footer">
+						<ul>
+							<li>
+								<a href="#">Quiénes Somos</a>
+							</li>
+							
+							<li>
+								<a href="#">Contacto</a>
+							</li>
+							
+							<li>
+								<a href="#">Aviso De Privacidad</a>
+							</li>
+							
+							<li>
+								<a href="#">Bolsa De Trabajo</a>
+							</li>
+							
+							<li>
+								<a href="#">Ubicaciones</a>
+							</li>
+						</ul>
+					</nav><!-- /.nav-footer -->
+				</div><!-- /.col col-size3 -->
+				
+				<div class="col col-size4">
+					<div class="socials-footer">
+						<h4>Síguenos</h4>
+
+						<ul>
+							<li>
+								<a href="#">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+
+								<ul class="socials-dropdown">
+									<li>
+										<a href="#">Lorem ipsum dolor.</a>
+									</li>
+									
+									<li>
+										<a href="#">Lorem ipsum dolor.</a>
+									</li>
+									
+									<li>
+										<a href="#">Lorem ipsum dolor.</a>
+									</li>
+								</ul><!-- /.socials-dropdown -->
+							</li>
+							
+							<li>
+								<a href="#">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+
+								<ul class="socials-dropdown">
+									<li>
+										<a href="#">Lorem ipsum dolor.</a>
+									</li>
+									
+									<li>
+										<a href="#">Lorem ipsum dolor.</a>
+									</li>
+									
+									<li>
+										<a href="#">Lorem ipsum dolor.</a>
+									</li>
+								</ul><!-- /.socials-dropdown -->
+							</li>
+							
+							<li>
+								<a href="#">
+									<i class="fa fa-youtube-play" aria-hidden="true"></i>
+								</a>
+
+								<ul class="socials-dropdown">
+									<li>
+										<a href="#">Lorem ipsum dolor.</a>
+									</li>
+									
+									<li>
+										<a href="#">Lorem ipsum dolor.</a>
+									</li>
+									
+									<li>
+										<a href="#">Lorem ipsum dolor.</a>
+									</li>
+								</ul><!-- /.socials-dropdown -->
+							</li>
+						</ul>
+					</div><!-- /.socials-footer -->
+				</div><!-- /.col col-size4 -->
+			</div><!-- /.cols -->
+
+			<p class="copyright"><strong>&copy; 2016 Casino Caliente</strong> | Todos los Derechos Reservados | <a href="#"><strong>Aviso de Privacidad</strong></a></p><!-- /.copyright -->
+		</div><!-- /.shell -->
+	</footer><!-- /.footer -->
+</div><!-- /.wrapper -->
+</body>
+</html>
+

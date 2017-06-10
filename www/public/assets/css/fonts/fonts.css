@@ -1,0 +1,66 @@
+@font-face {
+	font-family: "MyriadPro";
+	src: url("fonts/MyriadPro_700_italic_1435752009.eot");
+	src: url("fonts/MyriadPro_700_italic_1435752009.eot?#iefix") format("embedded-opentype"),
+		url("fonts/MyriadPro_700_italic_1435752009.svg#MyriadPro") format("svg"),
+		url("fonts/MyriadPro_700_italic_1435752009.woff") format("woff"),
+		url("fonts/MyriadPro_700_italic_1435752009.ttf") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "MyriadPro";
+	src: url("fonts/MyriadPro_600_normal_1435752009.eot");
+	src: url("fonts/MyriadPro_600_normal_1435752009.eot?#iefix") format("embedded-opentype"),
+		url("fonts/MyriadPro_600_normal_1435752009.svg#MyriadPro") format("svg"),
+		url("fonts/MyriadPro_600_normal_1435752009.woff") format("woff"),
+		url("fonts/MyriadPro_600_normal_1435752009.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "MyriadPro";
+	src: url("fonts/MyriadPro_700_normal_1435752009.eot");
+	src: url("fonts/MyriadPro_700_normal_1435752009.eot?#iefix") format("embedded-opentype"),
+		url("fonts/MyriadPro_700_normal_1435752009.svg#MyriadPro") format("svg"),
+		url("fonts/MyriadPro_700_normal_1435752009.woff") format("woff"),
+		url("fonts/MyriadPro_700_normal_1435752009.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "MyriadPro";
+	src: url("fonts/MyriadPro_600_italic_1435752009.eot");
+	src: url("fonts/MyriadPro_600_italic_1435752009.eot?#iefix") format("embedded-opentype"),
+		url("fonts/MyriadPro_600_italic_1435752009.svg#MyriadPro") format("svg"),
+		url("fonts/MyriadPro_600_italic_1435752009.woff") format("woff"),
+		url("fonts/MyriadPro_600_italic_1435752009.ttf") format("truetype");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "MyriadPro";
+	src: url("fonts/MyriadPro_400_normal_1435752009.eot");
+	src: url("fonts/MyriadPro_400_normal_1435752009.eot?#iefix") format("embedded-opentype"),
+		url("fonts/MyriadPro_400_normal_1435752009.svg#MyriadPro") format("svg"),
+		url("fonts/MyriadPro_400_normal_1435752009.woff") format("woff"),
+		url("fonts/MyriadPro_400_normal_1435752009.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "MyriadPro";
+	src: url("fonts/MyriadPro_400_italic_1435752009.eot");
+	src: url("fonts/MyriadPro_400_italic_1435752009.eot?#iefix") format("embedded-opentype"),
+		url("fonts/MyriadPro_400_italic_1435752009.svg#MyriadPro") format("svg"),
+		url("fonts/MyriadPro_400_italic_1435752009.woff") format("woff"),
+		url("fonts/MyriadPro_400_italic_1435752009.ttf") format("truetype");
+	font-weight: 400;
+	font-style: italic;
+}
+

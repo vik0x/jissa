@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "FuturaBold";
+  src: url('../fonts/futura/bold/Futura-Bold.eot');
+  src: url('../fonts/futura/bold/Futura-Bold.eot?v=1') format("embedded-opentype"), url('../fonts/futura/bold/Futura-Bold.woff2') format("woff2"), url('../fonts/futura/bold/Futura-Bold.woff') format("woff"), url('../fonts/futura/bold/Futura-Bold.ttf') format("truetype"), url('../fonts/futura/bold/Futura-Bold.svg') format("svg");
+}
+@font-face {
+  font-family: "FuturaMedium";
+  src: url('../fonts/futura/medium/Futura-Medium.eot');
+  src: url('../fonts/futura/medium/Futura-Medium.eot?v=1') format("embedded-opentype"), url('../fonts/futura/medium/Futura-Medium.woff2') format("woff2"), url('../fonts/futura/medium/Futura-Medium.woff') format("woff"), url('../fonts/futura/medium/Futura-Medium.ttf') format("truetype"), url('../fonts/futura/medium/Futura-Medium.svg') format("svg");
+}
+@font-face {
+  font-family: "FuturaMediumCondensed";
+  src: url('../fonts/futura/mediumcondensed/Futura-MediumCondensed.eot');
+  src: url('../fonts/futura/mediumcondensed/Futura-MediumCondensed.eot?v=1') format("embedded-opentype"), url('../fonts/futura/mediumcondensed/Futura-MediumCondensed.woff2') format("woff2"), url('../fonts/futura/mediumcondensed/Futura-MediumCondensed.woff') format("woff"), url('../fonts/futuracondensed/medium/Futura-MediumCondensed.ttf') format("truetype"), url('../fonts/futura/mediumcondensed/Futura-MediumCondensed.svg') format("svg");
+}
+@font-face {
+  font-family: "FuturaBook";
+  src: url('../fonts/futura/book/Futura-Book.eot');
+  src: url('../fonts/futura/book/Futura-Book.eot?v=1') format("embedded-opentype"), url('../fonts/futura/book/Futura-Book.woff2') format("woff2"), url('../fonts/futura/book/Futura-Book.woff') format("woff"), url('../fonts/futura/book/Futura-Book.ttf') format("truetype"), url('../fonts/futura/book/Futura-Book.svg') format("svg");
+}
+@font-face {
+  font-family: "FuturaExtraBold";
+  src: url('../fonts/futura/extrabold/Futura-ExtraBold.eot');
+  src: url('../fonts/futura/extrabold/Futura-ExtraBold.eot?v=1') format("embedded-opentype"), url('../fonts/futura/extrabold/Futura-ExtraBold.woff2') format("woff2"), url('../fonts/futura/extrabold/Futura-ExtraBold.woff') format("woff"), url('../fonts/futura/extrabold/Futura-ExtraBold.ttf') format("truetype"), url('../fonts/futura/extrabold/Futura-ExtraBold.svg') format("svg");
+}

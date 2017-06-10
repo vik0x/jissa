@@ -1,0 +1,14 @@
+{
+	"login":{
+		"title":"Iniciar Sesi\u00f3n | Salí",
+		"background":"\/assets\/images\/back.jpg",
+		"principal_text":{
+			"primary":"Revista Salí",
+			"secondary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus soluta eos cupiditate nisi, alias laborum quod esse a. Mollitia, voluptatum omnis aspernatur aut. Quo quod perspiciatis reprehenderit ex, quis!"
+		},
+		"form_footer":{
+			"text":"Revista Salí",
+			"logo":"/images/logo.png"
+		}
+	}
+}
